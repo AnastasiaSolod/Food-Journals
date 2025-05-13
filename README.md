@@ -1,26 +1,26 @@
-**Food Journals**
+**Журналы о еде**
 
-Food Journals is a mobile app built on React Native and Expo to track food intake through journaling with images and descriptions.
+Журналы о еде — это мобильное приложение, созданное на React Native и Expo для отслеживания потребления пищи с помощью ведения журнала с изображениями и описаниями.
 
-**Features:**
-- User registration and login using local SQLite authentication.
-- Add food journal entries with photo (from camera or gallery), description and category (breakfast, lunch, dinner, snacks).
-- Filter journal entries by category.
-- Edit and delete entries.
-- Local data storage using expo-sqlite.
-- Expo Go compatible (no dev-client required).
+**Функции:**
+- Регистрация и вход в систему с использованием локальной аутентификации SQLite.
+- Добавление записей в журнал о еде с фотографией (с камеры или из галереи), описанием и категорией (завтрак, обед, ужин, закуски).
+- Фильтрация записей в журнале по категориям.
+- Редактирование и удаление записей.
+- Локальное хранилище данных с использованием expo-sqlite.
+- Совместимость с Expo Go (не требуется клиент разработки).
 
-**Features:**
-- Authentication: Register/login using email and password.
-- Camera/Gallery: Add images from device camera or image gallery.
-- Journaling: Create, update and delete food journal entries.
-- Filter: Filter posts by meal categories.
-- Offline: Work completely offline with local SQLite.
+**Функции:**
+- Аутентификация: регистрация/вход с использованием электронной почты и пароля.
+- Камера/галерея: добавление изображений с камеры устройства или из галереи изображений.
+- Ведение журнала: создание, обновление и удаление записей в журнале питания.
+- Фильтр: фильтрация сообщений по категориям блюд.
+- Автономная работа: работа в автономном режиме с использованием локального SQLite.
 
-**Installation:**
-1) Install Node.js and npm, and Expo CLI globally (npm install -g expo-cli).
-2) Clone the repository:
-3) Install dependencies: `npm install`
-4) Install the required Expo modules: `npx expo install expo-sqlite expo-image-picker @react-native-picker/picker react-native-swipe-list-view`
-5) Run the project: `npx expo start`
-6) Scan the QR code in the terminal using Expo Go on your Android/iOS device.
+**Установка:**
+1) Установите Node.js и npm, а также Expo CLI глобально (npm install -g expo-cli).
+2) Клонируйте репозиторий:
+3) Установите зависимости: `npm install`
+4) Установите необходимые модули Expo: `npx expo install expo-sqlite expo-image-picker @react-native-picker/picker react-native-swipe-list-view`
+5) Запустите проект: `npx expo start`
+6) Отсканируйте QR-код в терминале с помощью Expo Go на вашем устройстве Android/iOS.
